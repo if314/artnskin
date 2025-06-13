@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NatureGlow Sunscreen</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <main class="min-h-screen flex flex-col items-center justify-center px-4 py-8">
+    <section class="w-full max-w-md space-y-8 text-center">
+      <h1 class="text-4xl font-bold text-green-700">NatureGlow Sunscreen</h1>
+      <p class="text-base text-gray-600">Natural. Organic. Gentle on your skin and the Earth.</p>
+
+      <img src="https://via.placeholder.com/300x200" alt="NatureGlow Sunscreen" class="mx-auto rounded-xl shadow-md" />
+
+      <div class="space-y-6">
+        <div class="bg-green-50 p-4 rounded-xl shadow">
+          <h2 class="text-xl font-semibold">Original Sunscreen</h2>
+          <p class="text-sm text-gray-600">Smooth, all-natural sun protection for every skin type.</p>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" class="mt-2">
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="YOUR_ORIGINAL_BUTTON_ID" />
+            <button type="submit" class="mt-2 w-full bg-green-600 text-white font-medium py-2 px-4 rounded hover:bg-green-700">Buy Original</button>
+          </form>
+        </div>
+
+        <div class="bg-green-50 p-4 rounded-xl shadow">
+          <h2 class="text-xl font-semibold">Whipped Mint Sunscreen</h2>
+          <p class="text-sm text-gray-600">With peppermint oil for a refreshing cooling effect.</p>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" class="mt-2">
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input type="hidden" name="hosted_button_id" value="YOUR_MINT_BUTTON_ID" />
+            <button type="submit" class="mt-2 w-full bg-green-600 text-white font-medium py-2 px-4 rounded hover:bg-green-700">Buy Mint</button>
+          </form>
+        </div>
+      </div>
+
+      <footer class="mt-12 text-xs text-gray-400">© 2025 NatureGlow. All rights reserved.</footer>
+    </section>
+  </main>
+</body>
+</html>
